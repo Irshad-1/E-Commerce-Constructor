@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <style>
+        form{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+       form > *{
+           width:70%;
+           margin: 20px 0;
+           font-size: 25px;
+       }
+    </style>
+</head>
+<body>
+    <a href="products.html">Go To Listed Products Page</a>
+    <form action="">
+        <input type="text" id="name" placeholder="Enter Product name">
+        <input type="text" id="category" placeholder="Enter Category">
+        <input type="tex form > *{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }t" id="image" placeholder="Enter image URL">
+        <input type="number" id="price" placeholder="Enter the price">
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Others</option>
+        </select>
+        <label for="sold">Sold<input type="checkbox" id="sold"></label>
+        <input type="submit" id="add" value="Add">
+    </form>
+    
+</body>
+<script src="index.js"></script>
+</html>
